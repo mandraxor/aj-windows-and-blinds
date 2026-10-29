@@ -261,7 +261,7 @@ export function EstimateModal({ isOpen, onClose, defaultService }: EstimateModal
                     <input
                       type="tel"
                       required
-                      placeholder="(702) 555-0123"
+                      placeholder="(725) 555-0123"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full p-2.5 bg-alabaster-50 border border-alabaster-300 rounded-xl text-sm text-charcoal-900 focus:outline-none focus:ring-2 focus:ring-bronze-500"
@@ -361,7 +361,7 @@ export function EstimateModal({ isOpen, onClose, defaultService }: EstimateModal
                   className="mt-2 inline-flex items-center gap-2 text-xs font-bold text-bronze-700 bg-amber-100 hover:bg-amber-200 px-3 py-1.5 rounded-lg transition-colors"
                 >
                   <Camera size={13} />
-                  <span>Text Photos to (702) 582-8226</span>
+                  <span>Text Photos to {BUSINESS_INFO.phone}</span>
                 </a>
               </div>
             </div>

@@ -111,7 +111,7 @@ export default function ServiceAreasPage() {
             className="px-6 py-3.5 bg-bronze-600 hover:bg-bronze-700 text-white font-bold text-xs rounded-xl shadow transition-all flex items-center gap-2 shrink-0"
           >
             <Phone size={14} className="fill-white" />
-            <span>Call (702) 582-8226</span>
+            <span>Call {BUSINESS_INFO.phone}</span>
           </a>
         </div>
 

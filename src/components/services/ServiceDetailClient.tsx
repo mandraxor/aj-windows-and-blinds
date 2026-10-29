@@ -74,7 +74,7 @@ export function ServiceDetailClient({ service }: ServiceDetailClientProps) {
                 className="px-5 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-xs rounded-xl flex items-center gap-2 transition-colors"
               >
                 <Phone size={14} className="text-amber-400 fill-amber-400" />
-                <span>Call (702) 582-8226</span>
+                <span>Call {BUSINESS_INFO.phone}</span>
               </a>
             </div>
           </div>

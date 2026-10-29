@@ -112,7 +112,7 @@ export function Hero({ onOpenEstimate }: HeroProps) {
                 className="flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-white hover:bg-alabaster-50 border border-charcoal-300 text-charcoal-900 font-bold text-base transition-all shadow-sm hover:shadow"
               >
                 <Phone size={17} className="text-bronze-600 fill-bronze-600" />
-                <span>Call (702) 582-8226</span>
+                <span>Call {BUSINESS_INFO.phone}</span>
               </a>
             </div>
 

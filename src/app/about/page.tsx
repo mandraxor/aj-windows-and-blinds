@@ -179,7 +179,7 @@ export default function AboutPage() {
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
               className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-xs rounded-xl transition-colors"
             >
-              Call (702) 582-8226
+              Call {BUSINESS_INFO.phone}
             </a>
           </div>
         </div>

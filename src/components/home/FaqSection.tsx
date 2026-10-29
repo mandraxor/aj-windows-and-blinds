@@ -88,7 +88,7 @@ export function FaqSection({ onOpenEstimate }: FaqSectionProps) {
               className="px-5 py-2.5 rounded-xl bg-white text-charcoal-900 font-bold text-xs flex items-center gap-2 hover:bg-alabaster-100 transition-colors"
             >
               <Phone size={14} className="text-bronze-600 fill-bronze-600" />
-              <span>(702) 582-8226</span>
+              <span>{BUSINESS_INFO.phone}</span>
             </a>
 
             <button

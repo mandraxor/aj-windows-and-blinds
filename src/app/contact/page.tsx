@@ -76,7 +76,7 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="mt-4 text-sm font-extrabold text-bronze-700">
-              (702) 582-8226 →
+              {BUSINESS_INFO.phone} →
             </div>
           </a>
 
@@ -152,7 +152,7 @@ export default function ContactPage() {
                     <input
                       type="tel"
                       required
-                      placeholder="(702) 555-0199"
+                      placeholder="(725) 555-0199"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full p-2.5 bg-alabaster-50 border border-alabaster-300 rounded-xl text-xs text-charcoal-900 focus:outline-none focus:ring-2 focus:ring-bronze-500"
